@@ -1,7 +1,7 @@
 <script>
 </script>
 <template>
-    <div id="login">
+    <div id ="login">
         <h1>Log in to UniApp</h1>
         <form class="form">
        <div class="header1"> <h2>Sign In</h2></div>     
