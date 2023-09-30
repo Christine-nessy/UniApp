@@ -3,23 +3,12 @@
 
 <template>
 <div id = 'landingpage'>
-<h1>Welcome to UniApp</h1>
-   <div class="nav">
-        
-        <ul class="ul">
-           <li><a class="active" href="#">Home</a></li>
-           <li><a href="login.html">Log In</a></li>
-           <li><a href="#">Courses</a></li>
-           <li><a href="#">About Us</a></li>
-           <li><a href="#">Scholarship</a></li>
-           <li><a href="Accomodation.html">Accomodation</a></li>
-           <li><a href="">Admission</a></li>
-        </ul>
-   </div>
+<h1>Welcome to The Greenville University</h1>
+   
 
    
    <div class="header">
-        <h1>The Greenville University</h1>
+        <h3>The Greenville University</h3>
    </div>
 
 <div class="img-gallery">

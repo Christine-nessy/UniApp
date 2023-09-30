@@ -1,13 +1,11 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import {createRouter, createWebHistory} from 'vue-router'
 
-import LandingPage from "./components/LandingPage"
-import AboutUs from "./components/AboutUs"
-import SignUp from "./components/SignUp"
-import Login from "./components/Login"
+import LandingPage from "./../components/LandingPage.vue"
+import AboutUs from "./../components/AboutUs.vue"
+import SignUp from "./../components/SignUp.vue"
+import Login from "./../components/Login.vue"
+import Register from "./../components/Register.vue"
 
-
-Vue.use(VueRouter)
 
 const routes =[
     {
@@ -29,5 +27,15 @@ const routes =[
         path: '/login',
         name: 'login',
         component: Login,
+    },
+    {
+        path: '/register',
+        name: 'register',
+        component: Register,
     }
 ]
+const router = createRouter({
+    history: createWebHistory(),
+    routes,
+})
+ export default router
