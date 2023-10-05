@@ -12,6 +12,7 @@
 
 </script>
 <template>
+    
     <div id = 'signup'>
         <v-container>
             <v-container>
@@ -23,10 +24,11 @@
                        
                     >
                     <v-toolbar
-                            color="#D2DE32"
+                            color="#FFFFDD"
                             theme="dark"
                         >
-                            <v-toolbar-title class="text-h6">
+                            <v-toolbar-title
+                             class="text-h6">
                                 User Registration
                             </v-toolbar-title>
                         </v-toolbar>
