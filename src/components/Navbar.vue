@@ -19,6 +19,9 @@
             <div>
                 <v-btn to="/register" color="black" dark>Register</v-btn>
             </div>
+            <div>
+                <v-btn to="/student" color="black" dark>Student</v-btn>
+            </div>
         
         </v-app-bar>
     </div>
